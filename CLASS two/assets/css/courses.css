@@ -42,18 +42,30 @@ body {
 }
 
 
-.all-cards {
-}
+.all-cards {display: flex;
+justify-content: start;
+align-items: start;
+width: 95%;
+padding: 10px;
+flex-direction: row;
+gap: 2rem;
+overflow-x: auto;}
 
 .card {
-    width: 345px ;
+    min-width: 345.5px;
     height: 396px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    gap: 20px;
+    padding: 10px 20px;
+
 }
 
-.courses-main{
+.courses-main {
     /* border: 1px solid red;
     width: 100%; */
 
 }
- 
