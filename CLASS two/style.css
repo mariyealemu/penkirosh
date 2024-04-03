@@ -1,0 +1,122 @@
+.first-nav {
+    background-color: black;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer {gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border: 1px solid transparent;
+    padding-bottom: 1rem;
+}
+
+.footer:hover {
+    border: 1px solid red;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-color: wheat;
+    padding: 30px;
+}
+
+/* .button{} */
+.contact {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+}
+
+.GO-TO {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 100px;
+}
+
+.button:hover {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    transition: 0.2s;
+}
+
+.button {
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.sub {
+    width: 50%;
+    text-align: center;
+}
+
+.h3 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 95.52px;
+    padding: 0px;
+}
+
+.hero h1 span {
+    font-weight: 400;
+}
+a{text-decoration: none;
+color: inherit;}
