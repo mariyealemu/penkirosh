@@ -1,0 +1,47 @@
+body {
+    background-color: black
+}
+
+body {
+    justify-content: start;
+    gap: 4rem;
+}
+
+.card {
+    width: 1318px;
+    height: 396px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    gap: 20px;
+    padding: 10px 20px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 396px;
+}
+
+.course-detail {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    flex-direction: row;
+    align-items: start;
+    width: 100%;
+    gap: 20rem;
+    padding: 10px;
+}
+
+.card-text {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: start;
+}
+
