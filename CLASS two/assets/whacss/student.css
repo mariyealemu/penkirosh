@@ -1,0 +1,110 @@
+body {
+    background-color: black
+}
+
+body {
+    justify-content: start;
+    gap: 2rem;
+}
+
+.name {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
+    gap: 35px;
+    color: #939393;
+    padding: 15PX;
+}
+
+.Your {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.Father {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+}
+
+.both {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
+    gap: 43px;
+    width: 208px;
+    height: 22px;
+
+}
+
+.gender {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    color: #939393;
+    padding: 15px;
+}
+
+.Male {
+    width: 72px;
+    height: 22px;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Ma {
+    width: 183px;
+    height: 22px;
+    gap: 10px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.web{
+    justify-content: start;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 187px;
+    height: 22px;
+}
+
+.bothz {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 43px;
+    width: 686px;
+    height: 22px;
+}
+.uni{
+    width: 453px;
+    height: 24px;
+    gap: 18rem;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.all {
+    width: 1132px;
+    height: 615px;
+    gap: 50px 50px 50px 50px;
+    justify-content: center;
+    align-self: center;
+    padding: 50px;
+}
