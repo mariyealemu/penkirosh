@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-    width: 1318px;
+    width: 100%;
     height: 396px;
     display: flex;
     justify-content: center;
@@ -16,13 +16,12 @@ body {
     flex-direction: column;
     border: 1px solid white;
     gap: 20px;
-    padding: 10px 20px;
-
+    padding: 10px 10px 0px 10px;
 }
 
 .card img {
-    width: 100%;
-    height: 396px;
+    width: 1100px;
+    height: fit-content;
 }
 
 .course-detail {
@@ -54,22 +53,22 @@ body {
 .h1 {
     font-family: "Poppins", sans-serif;
     font-size: 20.25px;
-    height: 35px;
-    width: 355px;
+    height: fit-content;
+    width: 100%;
 }
 
 .h2 {
     font-family: "Poppins", sans-serif;
-    font-size: 21.25px;
-    height: 35px;
-    width: 201px;
+    font-size: 20.25px;
+    height: fit-content;
+    width: 100%;
 }
 
 .h3 {
     font-family: "Poppins", sans-serif;
     font-size: 23.25px;
-    height: 35px;
-    width: 106%;
+    height: fit-content;
+    width: 100%;
     display: flex;
     padding: 0px;
     justify-content: start;
@@ -77,10 +76,9 @@ body {
 }
 
 .wat-learn {
-    padding: 65px 0px 0px 0px;
-    width: 345px;
-    height: 507px;
-    gap: 20px;
+    width: 100%;
+    height: fit-content;
+    padding: 0px 0px 100px 0px;
 }
 
 .learn {
@@ -89,9 +87,13 @@ body {
     height: fit-content;
     align-items: start;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 0px 0px 10px;
     gap: 1rem;
 
+}
+
+.help {
+    padding: 0px 0px 0px 10px;
 }
 
 .all-main {
@@ -99,8 +101,8 @@ body {
     justify-content: start;
     flex-direction: row;
     align-items: center;
-    height: 507px;
-    width: 1728px;
+    height: fit-content;
+    width: 100%;
     padding: 0px 0px 0px 0px;
 }
 
@@ -111,25 +113,18 @@ body {
     flex-direction: row;
     align-items: center;
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
 }
 
 .buttonss {
-    width: 819px;
-    height: 507;
+    width: 150%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    padding: 70px 250px 0px 175px;
-}
-
-.intro:hover {
-    background-color: white;
-    border-width: 1px;
-    border-style: solid;
-    transition: 0.2s;
+    padding: 0px 0px 0px 0px;
 }
 
 .explan {
@@ -140,18 +135,18 @@ body {
 }
 
 .intro {
-    width: 819px;
-    height: 192;
+    width: 100%;
+    height: fit-content;
     background-color: white;
     color: black;
     border: 1px solid transparent;
-    padding: 20px;
+    padding: 0px 10px 0px 30px;
 }
 
 .Ma {
     width: 309px;
-    height: 24px;
-    gap: 11px;
+    height: fit-content;
+    /* gap: 11px; */
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -160,21 +155,54 @@ body {
 
 .Man {
     width: 136px;
-    height: 24px;
-    gap: 11px;
+    height: fit-content;
+    gap: 5px;
     flex-direction: row;
     display: flex;
     align-items: center;
     justify-content: start;
 }
 
-.Mannn {
-    width: 309px;
-    height: 24px;
-    gap: 11px;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: start;
+.fun {
     padding: 0px 10px;
 }
+
+.duration {
+    padding: 10px;
+}
+
+/* .hulum{
+    padding: 10px;
+} */
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 20px;
+    color: black;
+}
+/* #accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion li label .content{
+    max-height: 400px;
+} */
